@@ -1,0 +1,18 @@
+{
+  "professors": {
+    "lee": {"name": "Prof. Lee", "courses": ["CSE 310"], "entries": [
+      {"id": 1, "kind": "oh", "text": "asked about amortized analysis for the dynamic array homework", "course": "CSE 310", "at": "2026-09-10T15:00-07:00"},
+      {"id": 2, "kind": "oh", "text": "talked through a faster approach to the graph project; she suggested trying Dijkstra with a binary heap", "course": "CSE 310", "at": "2026-10-01T15:00-07:00"},
+      {"id": 3, "kind": "grade", "text": "Midterm 1: 94/100, top of the class range she posted", "course": "CSE 310", "at": "2026-10-08T12:00-07:00"},
+      {"id": 4, "kind": "project", "text": "graph project ran 3x faster than the reference solution; she mentioned it in lecture", "course": "CSE 310", "at": "2026-10-20T12:00-07:00"}
+    ]},
+    "patel": {"name": "Dr. Patel", "courses": ["CSE 360"], "entries": [
+      {"id": 5, "kind": "class", "text": "answered the design patterns question in lecture", "course": "CSE 360", "at": "2026-09-15T10:00-07:00"},
+      {"id": 6, "kind": "email", "text": "asked about the team project scope; she replied with extra resources", "course": "CSE 360", "at": "2026-09-22T09:00-07:00"}
+    ]},
+    "chen": {"name": "Prof. Chen", "courses": ["CSE 205"], "entries": [
+      {"id": 7, "kind": "grade", "text": "final grade A", "course": "CSE 205", "at": "2025-12-15T12:00-07:00"}
+    ]}
+  },
+  "next_id": 8
+}
