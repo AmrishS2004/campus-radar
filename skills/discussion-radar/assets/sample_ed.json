@@ -1,0 +1,41 @@
+{
+  "courses": [
+    {"id": 18001, "code": "CSE 310", "name": "Data Structures and Algorithms", "status": "active", "role": "student"},
+    {"id": 18002, "code": "CSE 360", "name": "Software Engineering", "status": "active", "role": "student"}
+  ],
+  "users": [
+    {"id": 1, "name": "Prof. Lee", "course_role": "admin", "role": "user"},
+    {"id": 2, "name": "Maya (TA)", "course_role": "staff", "role": "user"},
+    {"id": 3, "name": "Student A", "course_role": "student", "role": "user"},
+    {"id": 4, "name": "Student B", "course_role": "student", "role": "user"}
+  ],
+  "threads": [
+    {"id": 501, "course_id": 18001, "user_id": 1, "type": "announcement", "title": "Midterm 2 moved to Thursday Nov 5",
+     "document": "Midterm 2 is moved from Tuesday to Thursday Nov 5 in the usual room. It covers lectures 10 to 17. Practice exam posted in Files.",
+     "category": "General", "is_pinned": true, "is_answered": false, "is_staff_answered": false, "vote_count": 12, "reply_count": 4,
+     "created_at": "2026-10-23T16:02:11.123456+00:00", "answers": [], "comments": []},
+    {"id": 502, "course_id": 18001, "user_id": 3, "type": "question", "title": "HW 5 problem 3: can we assume the graph is connected?",
+     "document": "For HW 5 problem 3, can we assume the input graph is connected, or do we need to handle multiple components?",
+     "category": "Homework", "is_pinned": false, "is_answered": true, "is_staff_answered": true, "vote_count": 7, "reply_count": 2,
+     "accepted_id": 9001, "created_at": "2026-10-22T03:15:00+00:00",
+     "answers": [
+       {"id": 9002, "user_id": 4, "document": "I think you have to handle it, the spec says arbitrary graph.", "is_endorsed": false, "vote_count": 1},
+       {"id": 9001, "user_id": 2, "document": "You cannot assume it is connected. Run DFS from every unvisited vertex and count components; that is part of the expected solution.", "is_endorsed": true, "vote_count": 9}
+     ],
+     "comments": []},
+    {"id": 503, "course_id": 18001, "user_id": 4, "type": "question", "title": "Is the HW 5 deadline extended because of the midterm move?",
+     "document": "Since the midterm moved, is the HW 5 deadline extended too?", "category": "Homework",
+     "is_pinned": false, "is_answered": true, "is_staff_answered": true, "vote_count": 15, "reply_count": 1,
+     "created_at": "2026-10-23T18:40:00+00:00",
+     "answers": [{"id": 9003, "user_id": 1, "document": "Yes, HW 5 is now due Saturday Nov 7 at 11:59 pm.", "is_endorsed": true, "vote_count": 14}],
+     "comments": []},
+    {"id": 504, "course_id": 18001, "user_id": 3, "type": "post", "title": "Study group in the library?",
+     "document": "Anyone want to study for the midterm on Wednesday evening?", "category": "Social",
+     "is_pinned": false, "is_answered": false, "is_staff_answered": false, "vote_count": 2, "reply_count": 3,
+     "created_at": "2026-10-23T20:00:00+00:00", "answers": [], "comments": []},
+    {"id": 601, "course_id": 18002, "user_id": 2, "type": "post", "title": "Sprint 2 demo sign-up sheet",
+     "document": "Sign up for a sprint 2 demo slot by Friday. Slots are 15 minutes during lab.", "category": "Project",
+     "is_pinned": false, "is_answered": false, "is_staff_answered": false, "vote_count": 3, "reply_count": 0,
+     "created_at": "2026-10-21T17:00:00+00:00", "answers": [], "comments": []}
+  ]
+}
