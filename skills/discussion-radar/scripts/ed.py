@@ -278,7 +278,7 @@ def cmd_search(src, args):
         status = "answered by staff" if t.get("is_staff_answered") else \
             "answered" if t.get("is_answered") or t.get("is_student_answered") else \
             "no answer yet" if t.get("type") == "question" else t.get("type", "post")
-        print("#%d [%s] %s (match %d%%, %s, %d replies)" % (
+        print("#%d [%s] %s (word overlap %d%%, %s, %d replies)" % (
             t["id"], c["code"], t.get("title", ""), round(100 * score), status, t.get("reply_count") or 0))
         print("  " + snippet(text_of(t), 120))
         print("  " + url_of(t))

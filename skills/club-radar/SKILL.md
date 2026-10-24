@@ -63,7 +63,9 @@ there's one, and the email it came from. Skip newsletters with nothing actionabl
 - **Normal clubs**: a text 1 hour before the event (time, room, link).
 - **Important clubs**: a text 1 hour before, plus a phone call 20 minutes before, if the student agreed to calls.
   Ask before the first call: "Want a quick call 20 min before Robotics meetings?"
-- **Changes**: a text as soon as a change is found, for any event already on the calendar.
+- **Changes**: a text as soon as a change is found, for any event already on the calendar. Move that event's
+  reminders and any phone call to the new time (or cancel them if the event is cancelled), so nothing fires at the
+  old time.
 - Word every reminder so it stands alone later: "Club Radar: Robotics Club GBM at 7 pm today in ENGRC 101. RSVP
   link in the calendar event."
 

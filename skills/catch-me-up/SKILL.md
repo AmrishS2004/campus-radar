@@ -31,12 +31,13 @@ make it to an exam today), speed matters more than completeness. Do this first, 
    wants shared), names what's affected and when, asks how to make it up, and says documentation can follow if the
    syllabus asks for it. Address each to the professor (and the TA if the syllabus says to), from the course's
    syllabus or Canvas contact info. Use Cubbie's usual way of drafting professor emails.
-4. Text one message listing who will get an email and what it says in one line each, then ask: "Send all 3?" The
-   student can say "send all", pick some, or change one. Send only what they approve, and confirm which went out.
+4. Show every draft in full (recipient, subject and the whole body), one text per email, then ask: "Send all 3
+   as written?" The student can say "send all", pick some, or change one; after any change, show that draft again.
+   Send only the exact drafts they approved, and confirm which went out.
 5. Offer a reminder for tomorrow: "Catch Me Up: check for professor replies about the emergency and start the
    catch-up PDF." Then, when the student is ready, run the normal steps below.
 
-Never send anything in emergency mode without the student's yes, even if they seem rushed. One "send all" is enough.
+Never send anything in emergency mode without the student's yes, even if they seem rushed. One "send all" after seeing the full drafts is enough.
 
 ## Steps
 

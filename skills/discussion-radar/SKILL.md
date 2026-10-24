@@ -63,7 +63,8 @@ clarifications, exam scope, policies, setup problems):
 
 1. Run `search` for that course with the question in the student's words. Also try once with different key words
    if the first search finds nothing.
-2. **Found a match**: run `thread` on the best one or two matches. If there's an accepted, endorsed or staff answer,
+2. **Found a match**: the percentage is only word overlap, so check that the thread really asks the same thing before
+   using it. Run `thread` on the best one or two matches. If there's an accepted, endorsed or staff answer,
    text it in a sentence or two with the link. If classmates answered but staff didn't, say that it's a student
    answer. If the match has no answer yet, tell the student and offer to follow it.
 3. **No match (NO_MATCH)**: draft a short, clear Ed post: a specific title, the question, what the student already
