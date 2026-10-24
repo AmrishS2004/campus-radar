@@ -194,6 +194,13 @@ Want a nudge for Jake? Anything to log?
 If the script fails for another reason, tell the student the log couldn't be saved right now and keep their text so
 it can be logged on the next try. Never claim something was logged when the command failed.
 
+## With Radar Autopilot
+
+If the student turned on Radar Autopilot, its scheduled sweeps already run this Skill, so don't offer this Skill's own
+recurring check-in. Reminders and calendar entries for new finds are covered by the student's autopilot yes, so create
+them without asking again (phone calls only if the student left calls on). Sending, posting, submitting, registering
+and paying still need a yes every time.
+
 ## Outside Cubbie
 
 The script works anywhere Python 3 runs. Without Canvas, ask the student for the due dates and teammates. Without

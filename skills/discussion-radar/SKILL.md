@@ -139,6 +139,13 @@ step). Read only the weekly points or the list of required posts and replies, th
 
 Never invent an answer to a course question. If Ed and the course materials don't answer it, say so and offer to post.
 
+## With Radar Autopilot
+
+If the student turned on Radar Autopilot, its scheduled sweeps already run this Skill, so don't offer this Skill's own
+recurring check-in. Reminders and calendar entries for new finds are covered by the student's autopilot yes, so create
+them without asking again (phone calls only if the student left calls on). Sending, posting, submitting, registering
+and paying still need a yes every time.
+
 ## Outside Cubbie
 
 With `ED_API_TOKEN` set in the shell, the Ed commands work anywhere Python 3 runs. Without reminders, list the

@@ -68,6 +68,8 @@ delete, include tests, submit a zip. Due Fri 11:59 pm.
 - With the student's yes, set a reminder for each hidden task (the evening before by default), worded so it stands
   alone later: "Slide Radar: CSE 310 reflection (Lecture 14 slide 37) is due before Thursday's lecture."
 - Offer to add hidden deadlines to Google Calendar. Add them only after a yes.
+- For a big assignment, offer a step-by-step flowchart of the instructions you found, made with the Sunday Radar
+  Skill's flowchart script (its `flow.py steps` command, run from that Skill's folder), when that Skill is installed.
 - If a find is an exam or quiz date, hand it to Exam Radar to save it and offer countdowns, when that Skill is
   installed.
 - Offer a weekly scan once (default Sunday at 6 pm, before Sunday Radar's brief), worded so it stands alone:
@@ -84,6 +86,13 @@ delete, include tests, submit a zip. Due Fri 11:59 pm.
 - Canvas not connected: ask the student to connect it and stop.
 - A file can't be opened or read: say which one, and ask the student to send a screenshot or the file if it matters.
 - No new finds: "Checked all 4 courses, nothing hidden outside the Assignments tab this week."
+
+## With Radar Autopilot
+
+If the student turned on Radar Autopilot, its scheduled sweeps already run this Skill, so don't offer this Skill's own
+recurring check-in. Reminders and calendar entries for new finds are covered by the student's autopilot yes, so create
+them without asking again (phone calls only if the student left calls on). Sending, posting, submitting, registering
+and paying still need a yes every time.
 
 ## Outside Cubbie
 

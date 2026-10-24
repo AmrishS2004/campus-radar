@@ -1,6 +1,6 @@
 ---
 name: sunday-radar
-description: Sends one Sunday-evening text with the student's whole week and catches conflicts like a club meeting the night before a midterm. It pulls in Canvas deadlines, tasks hidden in slides, discussion board deadlines, exam countdowns, club events, to-dos from email, overdue group project promises and closing regrade windows, and saves the full week as a Google Doc. Use whenever the student asks "what does my week look like", "plan my week", "what's coming up", wants a weekly summary or Sunday brief, or asks to set up a weekly check-in.
+description: Sends one Sunday-evening text with the student's whole week and catches conflicts like a club meeting the night before a midterm. It pulls in Canvas deadlines, tasks hidden in slides, discussion board deadlines, exam countdowns, club events, to-dos from email, overdue group project promises and closing regrade windows, and saves the full week as a Google Doc. Use whenever the student asks "what does my week look like", "plan my week", "what's coming up", asks to see their week or an assignment as a flowchart or visual, wants a weekly summary or Sunday brief, or asks to set up a weekly check-in.
 ---
 
 # Sunday Radar
@@ -67,7 +67,7 @@ The text holds only what matters most, in this order, at most 8 short lines:
 5. Club events worth knowing, and any registration closing.
 6. Overdue group promises, a regrade window closing, or an email still waiting on a reply.
 
-Then save the full week as a Google Doc in the student's Drive (a folder named "Campus Radar"), titled
+Then send the week as a flowchart (see "The week flowchart" below), and save the full week as a Google Doc in the student's Drive (a folder named "Campus Radar"), titled
 "Week of <Monday date>", with a section per day, and send the link on its own line. If Google Drive isn't
 connected, send a PDF instead.
 
@@ -86,6 +86,29 @@ https://docs.google.com/document/d/...
 Block Tue 6 to 9 pm for HW 5?
 ```
 
+## The week flowchart
+
+Students take in a week faster as a picture. After gathering the week, write it to a JSON file and run, from this
+Skill's folder:
+
+```bash
+python3 scripts/flow.py week --file <week.json>
+```
+
+The file has `title`, `start` (the Monday, YYYY-MM-DD), `crunch` (the crunch day's date, if any) and `items`, each with
+`date`, `time`, `kind` (`exam`, `deadline`, `hidden` for slide-only tasks, `discussion`, `club`, `todo`, `class` or
+`block` for a study block), `title`, `course`, a short `note`, and `conflict` (the clash and its fix, only when there
+is one). See `assets/sample_week.json`. The script prints the PDF's path; send the PDF with the brief. It needs no
+packages, and `--sample` draws the sample week.
+
+For one big assignment ("break HW 5 into steps", "show me a plan for my essay"), make a step-by-step flowchart instead:
+steps from the instructions and slides, each with a day and rough minutes, ending at the due date. Write it like
+`assets/sample_steps.json` and run `python3 scripts/flow.py steps --file <steps.json>`. Steps help the student plan
+their own work; never put answers or graded solutions in them.
+
+If the script fails (exit code 3 means a field is missing or a date is unreadable), fix the JSON and run it once more;
+if it still fails, send the text brief alone.
+
 ## Replies
 
 - Short, plain text, no Markdown in the text. One item per line.
@@ -96,6 +119,13 @@ Block Tue 6 to 9 pm for HW 5?
 - Canvas not connected: build the brief from what's available and say Canvas wasn't checked.
 - A Skill's command fails: leave that part out and mention it in one line at the end.
 - Nothing this week: "Quiet week: nothing due and no exams. Enjoy it."
+
+## With Radar Autopilot
+
+If the student turned on Radar Autopilot, its scheduled sweeps already run this Skill, so don't offer this Skill's own
+recurring check-in. Reminders and calendar entries for new finds are covered by the student's autopilot yes, so create
+them without asking again (phone calls only if the student left calls on). Sending, posting, submitting, registering
+and paying still need a yes every time.
 
 ## Outside Cubbie
 

@@ -1,0 +1,16 @@
+{
+  "title": "Your week",
+  "start": "2026-10-26",
+  "crunch": "2026-10-28",
+  "items": [
+    {"date": "2026-10-26", "time": "8:00 pm", "kind": "block", "title": "Start HW 5 (graph traversal)", "course": "CSE 310", "note": "Wed is packed, so begin early"},
+    {"date": "2026-10-27", "time": "11:59 pm", "kind": "discussion", "title": "Harmonize initial post", "course": "COM 230"},
+    {"date": "2026-10-28", "time": "11:59 pm", "kind": "deadline", "title": "HW 5: graph traversal", "course": "CSE 310", "note": "Ed: you can't assume the graph is connected"},
+    {"date": "2026-10-28", "time": "5:00 pm", "kind": "deadline", "title": "Pitch draft for the group project", "course": "MKT 300", "note": "Jake's intro slides still overdue"},
+    {"date": "2026-10-28", "time": "7:00 pm", "kind": "club", "title": "Robotics Club GBM", "note": "ENGRC 101, pizza", "conflict": "Same night as HW 5. Skip it or finish HW 5 Tuesday."},
+    {"date": "2026-10-29", "time": "9:00 am", "kind": "hidden", "title": "One-paragraph reflection before lecture", "course": "CSE 310", "note": "Lecture 14 slides, slide 37. Not in Canvas"},
+    {"date": "2026-10-30", "time": "11:59 pm", "kind": "todo", "title": "Send project topic to Prof. Lee", "note": "From her email on Oct 23"},
+    {"date": "2026-10-30", "time": "11:59 pm", "kind": "club", "title": "AI Club trip sign-up closes"},
+    {"date": "2026-11-01", "time": "11:59 pm", "kind": "discussion", "title": "Yellowdig: 1,000 points for the week", "course": "PSY 101"}
+  ]
+}

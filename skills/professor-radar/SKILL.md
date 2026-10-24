@@ -81,6 +81,13 @@ Confirm each log with one line. Don't make the student fill in a form.
 | 2 | No professors logged yet, or no match for a name or entry | Say what's logged (the script lists names) and offer to start from Canvas grades instead |
 | 3 | Bad input, such as an unreadable date or missing text | Ask for the one missing piece |
 
+## With Radar Autopilot
+
+If the student turned on Radar Autopilot, its scheduled sweeps already run this Skill, so don't offer this Skill's own
+recurring check-in. Reminders and calendar entries for new finds are covered by the student's autopilot yes, so create
+them without asking again (phone calls only if the student left calls on). Sending, posting, submitting, registering
+and paying still need a yes every time.
+
 ## Outside Cubbie
 
 Without the calendar, the student logs visits by texting. Without document tools, give the brag sheet as text.

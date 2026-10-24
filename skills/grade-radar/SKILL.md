@@ -105,6 +105,13 @@ check whether some grades are hidden or the syllabus weights differ from Canvas.
 If the syllabus has no regrade policy, say so and suggest asking within a week, which is common, by the method the
 course uses for questions.
 
+## With Radar Autopilot
+
+If the student turned on Radar Autopilot, its scheduled sweeps already run this Skill, so don't offer this Skill's own
+recurring check-in. Reminders and calendar entries for new finds are covered by the student's autopilot yes, so create
+them without asking again (phone calls only if the student left calls on). Sending, posting, submitting, registering
+and paying still need a yes every time.
+
 ## Outside Cubbie
 
 Without Canvas, ask the student to paste the score, rubric and feedback, or their grade breakdown, and build the

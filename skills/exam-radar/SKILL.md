@@ -109,6 +109,13 @@ or three lines: overall accuracy and the one or two weakest topics, with the sli
 If the course materials don't cover a topic, say so and ask the student for notes or slides instead of inventing
 questions. Never make up exam dates; use only what Canvas, the calendar or the student said.
 
+## With Radar Autopilot
+
+If the student turned on Radar Autopilot, its scheduled sweeps already run this Skill, so don't offer this Skill's own
+recurring check-in. Reminders and calendar entries for new finds are covered by the student's autopilot yes, so create
+them without asking again (phone calls only if the student left calls on). Sending, posting, submitting, registering
+and paying still need a yes every time.
+
 ## Outside Cubbie
 
 Without Canvas, ask for exam dates and paste-in notes. Without scheduled check-ins, give the student the countdown

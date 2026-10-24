@@ -96,6 +96,13 @@ Add the GBM to your calendar?
 - No club activity found: say so in one line, only when the student asked.
 - A date or time is unclear in the email: say what's unclear and ask, don't guess.
 
+## With Radar Autopilot
+
+If the student turned on Radar Autopilot, its scheduled sweeps already run this Skill, so don't offer this Skill's own
+recurring check-in. Reminders and calendar entries for new finds are covered by the student's autopilot yes, so create
+them without asking again (phone calls only if the student left calls on). Sending, posting, submitting, registering
+and paying still need a yes every time.
+
 ## Outside Cubbie
 
 Without Google connected, work from emails or flyers the student pastes, and list the dates and times so they can

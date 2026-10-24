@@ -1,0 +1,14 @@
+{
+  "title": "HW 5: graph traversal",
+  "course": "CSE 310",
+  "due": "Wed Oct 28, 11:59 pm",
+  "source": "the HW 5 PDF, Lecture 16 and 17 slides, and the Ed thread on connected graphs",
+  "steps": [
+    {"text": "Read the spec and the Ed clarification: the graph may not be connected", "when": "Mon", "minutes": 20},
+    {"text": "Review BFS and DFS on Lecture 16 slides 4 to 12", "when": "Mon", "minutes": 30},
+    {"text": "Write DFS that restarts from every unvisited vertex and counts components", "when": "Mon", "minutes": 60},
+    {"text": "Test on the three sample graphs, including one with isolated vertices", "when": "Tue", "minutes": 40},
+    {"text": "Write the complexity analysis for problem 4", "when": "Tue", "minutes": 30},
+    {"text": "Check the rubric line by line and zip the files", "when": "Wed", "minutes": 15}
+  ]
+}

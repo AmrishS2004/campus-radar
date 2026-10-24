@@ -85,6 +85,13 @@ summary." Create it only after a yes. On days with nothing new that needs action
 - A draft can't be saved: send the draft as a text instead and say so.
 - Inbox clean: "Nothing needs a reply today." Only when the student asked.
 
+## With Radar Autopilot
+
+If the student turned on Radar Autopilot, its scheduled sweeps already run this Skill, so don't offer this Skill's own
+recurring check-in. Reminders and calendar entries for new finds are covered by the student's autopilot yes, so create
+them without asking again (phone calls only if the student left calls on). Sending, posting, submitting, registering
+and paying still need a yes every time.
+
 ## Outside Cubbie
 
 Without Gmail, ask the student to paste the emails, and give the drafts and the to-do list in the reply.
